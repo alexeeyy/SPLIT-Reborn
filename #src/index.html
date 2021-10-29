@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+        <section class="page__main-slider main-slider">
+          <div class="main-slider__left left-slider">
+            <div class="left-slider__slide">
+              <strong class="left-slider__limited">Остатки-сладки!</strong>
+              <h2 class="left-slider__title">Новинка!<br>Тротуарная плитка "патио"</h2>
+              <span class="left-slider__sub-title">С эффектами колормикса</span>
+              <a href="#" class="left-slider__button button">Подробнее</a>
+            </div>
+            <ul class="left-slider__paggination paggination">
+              <li class="paggination__bullet _active"></li>
+              <li class="paggination__bullet"></li>
+              <li class="paggination__bullet"></li>
+              <li class="paggination__bullet"></li>
+            </ul>
+          </div>
+          <div class="main-slider__right right-slider">
+            <div class="right-slider__slide _ibg">
+              <img src="img/pictures/main-slider/01.jpg" alt="slide-01">
+            </div>
+          </div>
+        </section>
+        <section class="page__category category">
+          <div class="category__container _container">
+            <div class="category__grid">
+              <a href="#" class="category__grid-item">
+                <div class="category__icon">
+                  <img src="img/icons/category/01.svg" alt="category-01">
+                </div>
+                <h5 class="category__name">Выбропресованная плитка</h5>
+              </a>
+              <a href="#" class="category__grid-item">
+                <div class="category__icon">
+                  <img src="img/icons/category/02.svg" alt="category-02">
+                </div>
+                <h5 class="category__name">Вибролитьевая плитка</h5>
+              </a>
+              <a href="#" class="category__grid-item">
+                <div class="category__icon">
+                  <img src="img/icons/category/03.svg" alt="category-03">
+                </div>
+                <h5 class="category__name">Изделия из бетона</h5>
+              </a>
+              <a href="#" class="category__grid-item">
+                <div class="category__icon">
+                  <img src="img/icons/category/04.svg" alt="category-04">
+                </div>
+                <h5 class="category__name">Бордюры бетонные</h5>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="page__popular popular">
+          <div class="popular__container _container">
+            <h3 class="popular__title">Популярные товары</h3>
+            <div class="popular__navigation navigation">
+              <button class="navigation__button navigation__button_prev _icon-arrow-s" type="button"></button>
+              <button class="navigation__button navigation__button_next _icon-arrow-s" type="button"></button>
+            </div>
+            <div class="popular__grid grid-popular">
+              <figure class="grid-popular__item">
+                <div class="grid-popular__img _ibg"><img src="img/pictures/catalog/01.png" alt="catalog-01"></div>
+                <figcaption class="grid-popular__item-content">
+                  <span class="grid-popular__category">Изделия из бетона</span>
+                  <h4 class="grid-popular__title">Тротуарная плитка австрийский гросс</h4>
+                  <div class="grid-popular__footer">
+                    <div class="grid-popular__info">
+                      <span class="grid-popular__price _icon-uah">145</span>
+                      <span class="grid-popular__label">За 1 м.кв</span>
+                    </div>
+                    <a href="#" class="grid-popular__button _icon-arrow"></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="grid-popular__item">
+                <div class="grid-popular__img _ibg"><img src="img/pictures/catalog/02.png" alt="catalog-02"></div>
+                <figcaption class="grid-popular__item-content">
+                  <span class="grid-popular__category">Выбропресованная плитка</span>
+                  <h4 class="grid-popular__title">Тротуарная плитка старый город</h4>
+                  <div class="grid-popular__footer">
+                    <div class="grid-popular__info">
+                      <span class="grid-popular__price _icon-uah">124</span>
+                      <span class="grid-popular__label">За 1 м.кв</span>
+                    </div>
+                    <a href="#" class="grid-popular__button _icon-arrow"></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="grid-popular__item">
+                <div class="grid-popular__img _ibg"><img src="img/pictures/catalog/03.png" alt="catalog-03"></div>
+                <figcaption class="grid-popular__item-content">
+                  <span class="grid-popular__category">Бордюры бетонные</span>
+                  <h4 class="grid-popular__title">ФЭМ Бордюр Дорожный</h4>
+                  <div class="grid-popular__footer">
+                    <div class="grid-popular__info">
+                      <span class="grid-popular__price _icon-uah">60.50</span>
+                      <span class="grid-popular__label">За 1 м.кв</span>
+                    </div>
+                    <a href="#" class="grid-popular__button _icon-arrow"></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="grid-popular__item">
+                <div class="grid-popular__img _ibg"><img src="img/pictures/catalog/04.png" alt="catalog-04"></div>
+                <figcaption class="grid-popular__item-content">
+                  <span class="grid-popular__category">Вибролитьевая плитка</span>
+                  <h4 class="grid-popular__title">Тротуарная плитка австрийский гросс</h4>
+                  <div class="grid-popular__footer">
+                    <div class="grid-popular__info">
+                      <span class="grid-popular__price _icon-uah">102</span>
+                      <span class="grid-popular__label">За 1 м.кв</span>
+                    </div>
+                    <a href="#" class="grid-popular__button _icon-arrow"></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section class="page__services services">
+          <div class="services__container _container">
+            <h3 class="services__title">Наши услуги</h3>
+            <div class="services__grid">
+              <figure class="services__grid-item item-services">
+                <div class="item-services__img _ibg">
+                  <img src="img/pictures/services/01.jpg" alt="delivery">
+                </div>
+                <figcaption class="item-services__body">
+                  <h4 class="item-services__title">Доставка тротуарной плитки</h4>
+                  <p class="item-services__text">Каким образом доставить тяжелую и объемную продукцию? кран-манипулятор к вашим услугам, грузоподемностью до 15 тонн. способен ...</p>
+                  <a href="#" class="item-services__detailed _icon-arrow"><span>Подробнее</span></a>
+                </figcaption>
+              </figure>
+              <figure class="services__grid-item item-services">
+                <div class="item-services__img _ibg">
+                  <img src="img/pictures/services/02.jpg" alt="departure">
+                </div>
+                <figcaption class="item-services__body">
+                  <h4 class="item-services__title">Выезд замерщика</h4>
+                  <p class="item-services__text">Даже если вы знаете стоимость квадратного метра тротуарной плитки, сложно определить затраты, которые будут сопутствовать при ее укладке.</p>
+                  <a href="#" class="item-services__detailed _icon-arrow"><span>Подробнее</span></a>
+                </figcaption>
+              </figure>
+              <figure class="services__grid-item item-services">
+                <div class="item-services__img _ibg">
+                  <img src="img/pictures/services/03.jpg" alt="laying">
+                </div>
+                <figcaption class="item-services__body">
+                  <h4 class="item-services__title">Укладка тротуарной плитки</h4>
+                  <p class="item-services__text">Перед укладкой тротуарной плитки, нужно определиться, какой вид движения будет совершатся на вашей территории. при пешеходе, рекомендуемая толщина ...</p>
+                  <a href="#" class="item-services__detailed _icon-arrow"><span>Подробнее</span></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section class="page__consult consult">
+          <div class="consult__container _container">
+            <div class="consult__body">
+              <h3 class="consult__title">Получите от нас персональную консультацию и вы узнаете:</h3>
+              <div class="consult__grid grid-consult">
+                <figure class="grid-consult__item">
+                  <div class="grid-consult__icon"><img src="img/icons/consultation/01.svg" alt="ratchet"></div>
+                  <figcaption class="grid-consult__descr">Пошаговый план действий</figcaption>
+                </figure>
+                <figure class="grid-consult__item">
+                  <div class="grid-consult__icon"><img src="img/icons/consultation/02.svg" alt="answers"></div>
+                  <figcaption class="grid-consult__descr">Ответы на возникшие вопросы</figcaption>
+                </figure>
+                <figure class="grid-consult__item">
+                  <div class="grid-consult__icon"><img src="img/icons/consultation/03.svg" alt="recommendation-sheet"></div>
+                  <figcaption class="grid-consult__descr">Список рекомендаций по покупке и укладке</figcaption>
+                </figure>
+                <figure class="grid-consult__item">
+                  <div class="grid-consult__icon"><img src="img/icons/consultation/04.svg" alt="final-estimate"></div>
+                  <figcaption class="grid-consult__descr">Конечную смету, стоимость и сроки</figcaption>
+                </figure>
+              </div>
+              <div class="consult__call call-consult">
+                <div class="call-consult__row">
+                  <div class="call-consult__col call-consult__col_l">
+                    <b class="call-consult__title">Повоните сейчас</b>
+                    <span class="call-consult__sub-title">И запишитесь на консультацию</span>
+                  </div>
+                  <div class="call-consult__col call-consult__col_r">
+                    <a href="tel:+380665670204" class="call-consult__tel">
+                      <img src="img/icons/tel.svg" alt="telephone">
+                      <span class="call-consult__number">(066) 567-02-04</span>
+                    </a>
+                  </div>
+                </div>
+                <p class="call-consult__info">
+                  Консультация абсолютно бесплатная.
+                  Не тратье свое мремя , наши специалисты сделают все за вас.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="page__video video-wrapper">
+          <div class="video _video">
+            <video src="#" poster="img/pictures/poster.jpg"></video>
+            <div class="video__button"><img src="img/icons/play.svg" alt="play"></div>
+          </div>
+        </div>
+        <div class="page__callback callback-form">
+          <div class="callback-form__container _container">
+            <form action="#" class="callback-form__form form-callback">
+              <h3 class="form-callback__title">Остались вопросы?</h3>
+              <p class="form-callback__sub-title">Оставьте ваш номер телефона и мы вам перезвоним</p>
+              <div class="form__row">
+                <div class="form__line">
+                  <input autocomplete="off" type="text" name="form[name]" data-value="Введите имя" class="form__input input _req">
+                </div>
+                <div class="form__line">
+                  <input autocomplete="off" type="text" name="form[tel]" data-value="+380 (  _ _  )  _ _ _   _ _   _ _" class="form__input input _req _tel">
+                </div>
+                <button type="submit" class="form__button button">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <section class="page__main-info main-info">
+          <div class="main-info__header info-header">
+            <div class="info-header__container _container">
+              <div class="info-header__address">
+                <div class="info-header__logo"><img src="img/icons/logo.svg" alt="logo"></div>
+                <h3 class="info-header__title">Наш магазин по адрессу:</h3>
+                <a href="#" class="info-header__link">г. Херсон, Ул.Газовая,8</a>
+              </div>
+              <div class="info-header__schedule">
+                Пн-Пт:
+                8:30 — 17:00
+                /
+                Сб:
+                8:30 — 13:00
+                /
+                Вс:
+                <i>Выходной</i>
+              </div>
+            </div>
+          </div>
+          <div class="main-info__map map-main" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21905.29549825613!2d32.5829417!3d46.6630639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c41b6dbe442799%3A0x7c629151c6301de2!2z0YLRgNC-0YLRg9Cw0YDQvdCw0Y8g0L_Qu9C40YLQutCwINGF0LXRgNGB0L7QvSB8IHNwbGl0LXVhLmNvbQ!5e0!3m2!1sru!2sua!4v1634496534412!5m2!1sru!2sua" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="main-info__content _container">
+            <div class="main-content">
+              <p>SEO-тексты необходимы для оптимизации страницы под определенную группу поисковых запросов. Они встречаются на страницах сайтов услуг или категорий товаров в интернет-магазинах. Оптимизированный текст отличается наличием вхождений ключевых слов (запросов пользователей), по которым происходит продвижение страницы.</p>
+              <h6>Правила написания SEO-текста</h6>
+              <p>Текст должен иметь достаточное количество вхождений. Расчет необходимого количества производится на основе анализа конкурентов по ТОПу. Важно не переоптимизировать текст излишними вхождениями.
+              Ключевые слова должны быть равномерно распределены по всей статье.
+              Необходимый объем текста также определяется на основе результатов выдачи поисковых систем.
+              Требуемая уникальность текста составляет не менее 90%. Для тематик, в которых используется большое количество узкоспециализированных терминов, уникальность может составлять 75%.
+              Отсутствие грамматических ошибок.
+              Текст должен легко восприниматься. Для этого необходимо использовать подзаголовки, разнообразить содержание, используя маркированные и нумерованные списки, таблицы, изображения.
+              Рекомендуется использовать слова, близкие тематике статьи (LSI) и слова для внутренней перелинковки.</p>
+            </div>
+          </div>
+        </section>
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>
